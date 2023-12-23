@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JosmarTinoco</title>
+    <meta name="description" content="sitio web">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Prefetch -->
+    <link rel="prefetch" href="./pages/sobre-mi.html" as="document">
+
+    <!-- Preload -->
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Developer</h1>
+                </a>
+
+                <nav>
+                <ul class="navegacion">
+                    <li class="navegacion__enlace"><a href="./pages/portfolio.html">Portfolio</a></li>
+                    <li class="navegacion__enlace"><a href="./pages/servicios.html">Servicios</a></li>
+                    <li class="navegacion__enlace"><a href="./pages/sobre-mi.html">Sobre Mí</a></li>
+                    <li class="navegacion__enlace"><a href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <div class="presentacion">
+            <div class="presentacion__imagen">
+                <img src="/img/yo.jpg" class="imagenpreset" alt="Yo">
+            </div>
+
+            <div class="presentacion__texto">
+                <h2>Hola Soy Josmar!</h2>
+                <p>
+                Soy un programador, aspirante a poder ofrecer mis servicios en grandes proyectos brindando soluciones a través de la codificación de páginas u programas que sean solicitados.
+                </p>
+
+                <p>Maecenas commodo erat ac elit elementum, ac eleifend arcu gravida. Donec commodo auctor augue, eget tempor dui fermentum in. Duis non enim vitae metus accumsan vehicula. Pellentesque egestas diam ut ante aliquet, sit amet fringilla odio interdum. In nec odio nec turpis faucibus sagittis. Sed quis tellus nec ante luctus aliquam sit amet vel mauris. Nunc vitae facilisis mauris, posuere tristique arcu. Praesent nisi urna, venenatis non laoreet</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h2 class="logo__nombre no-margin centrar-texto">JosmarTinoco</h2>
+                </a>
+
+                <ul class="navegacion">
+                    <li clsss="navegacion__enlace"><a href="./pages/portfolio.html" class="navegacion__enlace">Portfolio</a></li>
+                    <li clsss="navegacion__enlace"><a href="./pages/servicios.html" class="navegacion__enlace">Servicios</a></li>
+                    <li clsss="navegacion__enlace"><a href="./pages/sobre-mi.html" class="navegacion__enlace">Sobre Mí</a></li>
+                    <li clsss="navegacion__enlace"><a href="./pages/contacto.html" class="navegacion__enlace">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
