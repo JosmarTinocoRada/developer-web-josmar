@@ -1,0 +1,50 @@
+.webp .header {
+    background-image: url(../img/bannerjs3.webp);
+  }
+  
+  .no-webp .header {
+    background-image: url(../img/bannerjs3.jpg);
+  }
+  
+  .header {
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  /**Barra**/
+  .barra {
+    padding-top: 4rem;
+  
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  
+  /**logo**/
+  .logo {
+    color: var(--blanco);
+  
+    @media (min-width: 768px) {
+      .navegacion {
+        display: flex;
+        gap: 2rem;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .navegacion {
+      display: flex;
+      gap: 2rem;
+    }
+  }
+  .navegacion__enlace {
+      display: block;
+      text-align: center;
+      font-size: 2.2rem;
+      color: var(--blanco);
+    }

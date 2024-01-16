@@ -1,0 +1,115 @@
+/** Sobre Mi **/
+@media (min-width: 768px) {
+    .sobre-mi {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 2rem;
+    }
+  }
+  
+  /** Barras de Progreso Inicio **/
+  .contenedor-barras {
+    max-width: 140rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: -15rem;
+  }
+  
+  .wrapper {
+    width: 40rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+  }
+  
+  .skill {
+    margin-bottom: 35px;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .skill > p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1716;
+    margin: 0;
+  }
+  
+  .skill:before {
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+  }
+  
+  .skill-bar {
+    width: 100%;
+    height: 5px;
+    background: #2ae3f0;
+    display: block;
+    position: relative;
+  }
+  
+  /* SKILL 1 */
+  .skill1 {
+    width: 95%;
+  }
+  
+  .skill-bar span {
+    position: absolute;
+    border-top: 5px solid #f4392f;
+    top: -50px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+  }
+  
+  .skill-bar {
+    position: relative;
+  }
+  
+  .skill1 .skill-count1 {
+    right: 0;
+  }
+  
+  /* SKILL 2 */
+  .skill2 {
+    width: 65%;
+  }
+  
+  .skill2 .skill-count2 {
+    right: 0;
+  }
+  
+  /* SKILL 3 */
+  .skill3 {
+    width: 45%;
+  }
+  
+  .skill3 .skill-count3 {
+    right: 0;
+  }
+  
+  /* SKILL 4 */
+  .skill4 {
+    width: 60%;
+  }
+  
+  .skill4 .skill-count4 {
+    right: 0;
+  }
+  
+  /* SKILL 5 */
+  .skill5 {
+    width: 40%;
+  }
+  
+  .skill5 .skill-count5 {
+    right: 0;
+  }
+  
+  /**Barras de progreso Fin**/
+  /**Fin Sobre Mi**/
