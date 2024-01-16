@@ -30,5 +30,37 @@
     }
   }
   
+  /**Botones**/
+
+.boton {
+  display: block;
+  font-family: var(--fuenteHeading);
+  color: var(--blanco);
+  text-align: center;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  border: none;
+}
+
+@media (min-width: 368px) {
+  .boton {
+      display: flex;
+      align-items: center;
+      margin-left: 9rem;
+  }
+}
+.boton:hover {
+  cursor: pointer;
+}
+.boton--primario {
+  background-color: var(--negro);
+}
+.boton--secundario {
+  background-color: var(--primario);
+}  
+
   /** Fin Contacto**/
   
