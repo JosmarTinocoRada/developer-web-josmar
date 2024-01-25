@@ -4,9 +4,28 @@
 
   .descripcion-carousel{
     margin-top: 10rem;
+    text-decoration: underline;
   }
 
   .titulo-carousel{
     margin-bottom: 5rem;
     text-decoration: underline;
   }
+
+  @media (max-width: 767px) {
+    .carousel-responsive {
+        max-width: 150%;
+    }
+  }
+
+  
+  @media (max-width: 1320px) {
+    .descripcion-carousel {
+        margin-top: 10rem;
+        font-size: 1.8rem;
+        white-space: inherit;
+        margin-bottom: -1.4rem;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}
